@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Friends Gallery</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="banner">
+    <div class="slider" style="--quantity:8;">
+      <div class="item" style="--position:1"><img src="project img 1.jpg" alt="partner 2.jpg"></div>
+      <div class="item" style="--position:2"><img src="project img 2.jpg" alt="partner 1.jpg"></div>
+      <div class="item" style="--position:3"><img src="project img 3.jpg" alt="partner 4.jpg"></div>
+      <div class="item" style="--position:4"><img src="project img 4.jpg" alt="partner 3 updated.jpg"></div>
+      <div class="item" style="--position:5"><img src="project img 5.jpg" alt="partner 6.jpg"></div>
+      <div class="item" style="--position:6"><img src="project img 6.jpg" alt="partner 5. updated"></div>
+      <div class="item" style="--position:7"><img src="project img 7.jpg" alt="partner 8.jpg"></div>
+      <div class="item" style="--position:8"><img src="project img 8.jpg" alt="partner 7.jpg"></div>
+    </div>
+    <div class="content">
+      <h1>GS.SHARK</h1>
+      <p>Tap an image to enlarge. Tap again to flip between friends and their partners/friends.</p>
+    </div>
+  </div>
+
+  <!-- Modal -->
+<div id="imageModal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <div class="modal-body">
+      <div class="modal-image">
+        <img id="modalImg" src="" alt="Enlarged Image">
+      </div>
+      <div class="modal-details">
+        <h2 id="modalTitle"></h2>
+        <p id="modalDesc"></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
