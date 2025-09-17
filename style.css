@@ -111,3 +111,15 @@ body {
   .modal-body { flex-direction: column; }
   .modal-image, .modal-details { flex: 1 1 100%; }
 }
+body {
+            background-image: url('project\ website\ bg.png'); /* Replace with the actual path to your image */
+            background-repeat: no-repeat; /* Prevents the image from repeating */
+            background-size: cover; /* Scales the image to cover the entire background area */
+            background-position: center center; /* Centers the image */
+            background-attachment: fixed; /* Keeps the background fixed when scrolling */
+        }
+
+        #para {
+            color: rgb(247, 8, 8);
+            font-size: 18px;
+        }

@@ -7,7 +7,7 @@ const imagePairs = [
   { images: ["project img 5.jpg","partner 6.jpg"], titles: ["AAKASH","AAKASH KI SAPNO KI RANI"], descs: ["Cheerful, Helpful, Dependable","Friendly, Patient, Caring"] },
   { images: ["project img 6.jpg","partner 5 updated.jpg"], titles: ["NISHITA","NISHITA'S TO BE BOYFRIEND"], descs: ["Patient, Warm, Organized","Friendly, Patient, Caring"] },
   { images: ["project img 7.jpg","partner 8.jpg"], titles: ["KISHORE","KISHORE'S LIFE"], descs: ["Curious, Bright, Caring","Reliable, Thoughtful, Bright"] },
-  { images: ["project img 8.jpg","partner 7.jpg"], titles: ["SUBHRA","SUBHRA'S PATI JAISA DOST"], descs: ["Resourceful, Fair, Steady","Warm, Helpful, Sincere"] },
+  { images: ["project img 8.jpg","partner 7.jpg"], titles: ["SHUBHRA","SHUBHRA'S PATI JAISA DOST"], descs: ["Resourceful, Fair, Steady","Warm, Helpful, Sincere"] },
 ];
 
 const modal = document.getElementById("imageModal");
